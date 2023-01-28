@@ -4,7 +4,7 @@
 
 
 @font-face {
-    font-family: 'One Piece';
+    font-family: 'one piece';
     src: url('One Piece - PERSONAL USE.ttf')
     format('TrueType Font');
     font-weight: normal;
@@ -19,7 +19,7 @@
 
     --font-padrao: Arial, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', 'cursive';
-    --fonte-one-piece: 'One Piece', 'cursive'
+    --fonte-one-piece: 'one Piece', 'cursive'
 }
 
 #dov{
@@ -38,3 +38,55 @@ body {
     font-family: var(--font-padrao);
 }
 
+ h1 {
+    font-family: var(--fonte-destaque);
+
+}
+
+ h2 {
+    font-family: var(--fonte-destaque);
+    margin: 8px;
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 20px;
+    background-color: #cc9a9a;
+    box-shadow: black;
+    border-radius: 10px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.2em;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 0px;
+    background-color: var(--cor3);
+    font-weight: bold;
+    padding: 10px;
+}
+
+footer a {
+    color: #020202;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
